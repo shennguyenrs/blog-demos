@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-num-base {
+    @apply border-2 border-gray-100 dark:border-gray-800 dark:hover:border-slate-300 w-16 h-16 rounded-lg hover:scale-110 hover:border-slate-600 active:scale-90 transition ease-in duration-100;
+  }
+}
