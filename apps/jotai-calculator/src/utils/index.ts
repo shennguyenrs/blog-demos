@@ -6,6 +6,11 @@ export function doComputating(nums: number[], ops: string[]) {
   let newOps = [...ops];
   let i = 0;
 
+  // Return 0 if received array is empty
+  if (newNums.length === 0 || newOps.length === 0) {
+    return 0;
+  }
+
   // Do priority operators
   while (i < newOps.length) {
     if (priorityOperators.includes(newOps[i])) {

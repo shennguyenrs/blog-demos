@@ -4,17 +4,17 @@ importers:
 
   .:
     specifiers:
-      eslint-config-next: workspace:*
+      eslint-config-next: workspace:0.0.0
       eslint-config-vite: workspace:^0.0.0
       prettier: latest
-      prettier-plugin-tailwindcss: ^0.2.0
+      prettier-plugin-tailwindcss: ^0.2.7
       turbo: latest
     devDependencies:
       eslint-config-next: link:packages/eslint-config-next
       eslint-config-vite: link:packages/eslint-config-vite
-      prettier: 2.8.0
-      prettier-plugin-tailwindcss: 0.2.0_prettier@2.8.0
-      turbo: 1.6.3
+      prettier: 2.8.7
+      prettier-plugin-tailwindcss: 0.2.7_prettier@2.8.7
+      turbo: 1.9.2
 
   apps/jotai:
     specifiers:
@@ -2631,17 +2631,63 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
-  /prettier-plugin-tailwindcss/0.2.0_prettier@2.8.0:
-    resolution: {integrity: sha512-Ruqig/mdWCSpqdq9WK44nrmqM4BFWTzBPhPGwC5NK3coV9eZntEQPB84MGZbjAg0XQU02jVRHXNRPREBzxvM+A==}
+  /prettier-plugin-tailwindcss/0.2.7_prettier@2.8.7:
+    resolution: {integrity: sha512-jQopIOgjLpX+y8HeD56XZw7onupRTC0cw7eKKUimI7vhjkPF5/1ltW5LyqaPtSyc8HvEpvNZsvvsGFa2qpa59w==}
     engines: {node: '>=12.17.0'}
     peerDependencies:
+      '@ianvs/prettier-plugin-sort-imports': '*'
+      '@prettier/plugin-php': '*'
+      '@prettier/plugin-pug': '*'
+      '@shopify/prettier-plugin-liquid': '*'
+      '@shufo/prettier-plugin-blade': '*'
+      '@trivago/prettier-plugin-sort-imports': '*'
       prettier: '>=2.2.0'
+      prettier-plugin-astro: '*'
+      prettier-plugin-css-order: '*'
+      prettier-plugin-import-sort: '*'
+      prettier-plugin-jsdoc: '*'
+      prettier-plugin-organize-attributes: '*'
+      prettier-plugin-organize-imports: '*'
+      prettier-plugin-style-order: '*'
+      prettier-plugin-svelte: '*'
+      prettier-plugin-twig-melody: '*'
+    peerDependenciesMeta:
+      '@ianvs/prettier-plugin-sort-imports':
+        optional: true
+      '@prettier/plugin-php':
+        optional: true
+      '@prettier/plugin-pug':
+        optional: true
+      '@shopify/prettier-plugin-liquid':
+        optional: true
+      '@shufo/prettier-plugin-blade':
+        optional: true
+      '@trivago/prettier-plugin-sort-imports':
+        optional: true
+      prettier-plugin-astro:
+        optional: true
+      prettier-plugin-css-order:
+        optional: true
+      prettier-plugin-import-sort:
+        optional: true
+      prettier-plugin-jsdoc:
+        optional: true
+      prettier-plugin-organize-attributes:
+        optional: true
+      prettier-plugin-organize-imports:
+        optional: true
+      prettier-plugin-style-order:
+        optional: true
+      prettier-plugin-svelte:
+        optional: true
+      prettier-plugin-twig-melody:
+        optional: true
     dependencies:
-      prettier: 2.8.0
+      prettier: 2.8.7
     dev: true
 
-  /prettier/2.8.0:
-    resolution: {integrity: sha512-9Lmg8hTFZKG0Asr/kW9Bp8tJjRVluO8EJQVfY2T7FMw9T5jy4I/Uvx0Rca/XWf50QQ1/SS48+6IJWnrb+2yemA==}
+  /prettier/2.8.7:
+    resolution: {integrity: sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
@@ -3022,65 +3068,65 @@ packages:
       typescript: 4.9.3
     dev: false
 
-  /turbo-darwin-64/1.6.3:
-    resolution: {integrity: sha512-QmDIX0Yh1wYQl0bUS0gGWwNxpJwrzZU2GIAYt3aOKoirWA2ecnyb3R6ludcS1znfNV2MfunP+l8E3ncxUHwtjA==}
+  /turbo-darwin-64/1.9.2:
+    resolution: {integrity: sha512-SJq8LhrasKcsB5HOBJ5PT95F9pHwGd7yqmCtAY8ZECVzZVJcIyOcIZMbGec15SFVzKkAAYvVRAprBUtnZeTqkg==}
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-darwin-arm64/1.6.3:
-    resolution: {integrity: sha512-75DXhFpwE7CinBbtxTxH08EcWrxYSPFow3NaeFwsG8aymkWXF+U2aukYHJA6I12n9/dGqf7yRXzkF0S/9UtdyQ==}
+  /turbo-darwin-arm64/1.9.2:
+    resolution: {integrity: sha512-qTNouzjmEDctwsLQr9ppefpV3//h9pDp2OePONd8bzqkH0qZcsJtLcGOA3W3wNaaahxdwZzEkOzso7kzNvFiXw==}
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-linux-64/1.6.3:
-    resolution: {integrity: sha512-O9uc6J0yoRPWdPg9THRQi69K6E2iZ98cRHNvus05lZbcPzZTxJYkYGb5iagCmCW/pq6fL4T4oLWAd6evg2LGQA==}
+  /turbo-linux-64/1.9.2:
+    resolution: {integrity: sha512-Xi5r1owPP5MrBAAsOwAqPjbUpD2/DIC/CtDAO/X+Hdeb0ZmpICzrcvHjsnp7f4yOc9JYuUH67RZQulTfU45evA==}
     cpu: [x64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-linux-arm64/1.6.3:
-    resolution: {integrity: sha512-dCy667qqEtZIhulsRTe8hhWQNCJO0i20uHXv7KjLHuFZGCeMbWxB8rsneRoY+blf8+QNqGuXQJxak7ayjHLxiA==}
+  /turbo-linux-arm64/1.9.2:
+    resolution: {integrity: sha512-g5NtUDoMzRHMnG9w1coAjMvscfcvgZODeuSqjy+hgnf4nw6fvF+bQI+BNOE66OFgwVZ1iACUSCzqjD42i8pPiA==}
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-windows-64/1.6.3:
-    resolution: {integrity: sha512-lKRqwL3mrVF09b9KySSaOwetehmGknV9EcQTF7d2dxngGYYX1WXoQLjFP9YYH8ZV07oPm+RUOAKSCQuDuMNhiA==}
+  /turbo-windows-64/1.9.2:
+    resolution: {integrity: sha512-2Hc+D11ajpujxTMsRkUo5gSlyqXXS1chf2GaKU4G0zuzBsfdvMdVCbNrHyoe8glGODICi72r3XVXJKTf9259xQ==}
     cpu: [x64]
     os: [win32]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-windows-arm64/1.6.3:
-    resolution: {integrity: sha512-BXY1sDPEA1DgPwuENvDCD8B7Hb0toscjus941WpL8CVd10hg9pk/MWn9CNgwDO5Q9ks0mw+liDv2EMnleEjeNA==}
+  /turbo-windows-arm64/1.9.2:
+    resolution: {integrity: sha512-QaenrrHhej0EbDUwR4MG/8FP/jrjXjTT8t+f3o402HtlneZpDEAVNdL2fdwUW6CeLE0xH0kO+ZmmT3KZ09mHCg==}
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo/1.6.3:
-    resolution: {integrity: sha512-FtfhJLmEEtHveGxW4Ye/QuY85AnZ2ZNVgkTBswoap7UMHB1+oI4diHPNyqrQLG4K1UFtCkjOlVoLsllUh/9QRw==}
+  /turbo/1.9.2:
+    resolution: {integrity: sha512-L7Nuuq8hZRK9tMQj8zTE7SBs1j4WgM1Xv6Rwioq7ghPqUTR+UqdnAenEycAwU0XUZoKjxk94Z4VK+KzYccyD/w==}
     hasBin: true
     requiresBuild: true
     optionalDependencies:
-      turbo-darwin-64: 1.6.3
-      turbo-darwin-arm64: 1.6.3
-      turbo-linux-64: 1.6.3
-      turbo-linux-arm64: 1.6.3
-      turbo-windows-64: 1.6.3
-      turbo-windows-arm64: 1.6.3
+      turbo-darwin-64: 1.9.2
+      turbo-darwin-arm64: 1.9.2
+      turbo-linux-64: 1.9.2
+      turbo-linux-arm64: 1.9.2
+      turbo-windows-64: 1.9.2
+      turbo-windows-arm64: 1.9.2
     dev: true
 
   /type-check/0.4.0:

@@ -13,10 +13,10 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
-    "eslint-config-next": "workspace:*",
+    "eslint-config-next": "workspace:0.0.0",
     "eslint-config-vite": "workspace:^0.0.0",
     "prettier": "latest",
-    "prettier-plugin-tailwindcss": "^0.2.0",
+    "prettier-plugin-tailwindcss": "^0.2.7",
     "turbo": "latest"
   },
   "engines": {
