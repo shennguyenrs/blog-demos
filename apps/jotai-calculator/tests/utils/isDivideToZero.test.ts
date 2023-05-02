@@ -1,7 +1,7 @@
 import { isDivideToZero } from "../../src/utils/index";
 import { expect, it, describe } from "vitest";
 
-describe("isDivideToZero should recogise correctly", () => {
+describe.concurrent("isDivideToZero should recogise correctly", () => {
   it("should return true", () => {
     const nums1 = [2, 0, 4];
     const ops1 = ["/", "-"];

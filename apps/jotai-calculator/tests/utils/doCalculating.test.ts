@@ -1,7 +1,7 @@
 import { it, describe, expect } from "vitest";
 import { doComputating } from "../../src/utils/index";
 
-describe("should doCalculating do calculate correctly", () => {
+describe.concurrent("should doCalculating do calculate correctly", () => {
   it("should handle addition and rouding", () => {
     const nums1 = [2, 3, 4];
     const ops1 = ["+", "-"];

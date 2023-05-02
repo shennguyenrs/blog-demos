@@ -1,7 +1,7 @@
 import { translateFormulaToObject } from "../../src/utils/index";
 import { it, describe, expect } from "vitest";
 
-describe('translateFormulaToObject should work correctly', () => {
+describe.concurrent('translateFormulaToObject should work correctly', () => {
   it('should correctly translate a valid formula string to an object', () => {
     const raw = "32-4*2+10/5";
     const expected = {
